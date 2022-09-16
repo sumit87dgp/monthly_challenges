@@ -8,7 +8,8 @@ from django.template.loader import render_to_string
 monthly_challenges = {
     "january" : "Eat no meat for entire month",
     "february" : "Walk for 2 hours",
-    "march" : "Do nothing"
+    "march" : "Do nothing",
+    "april" : None
 }
 
 def index(request):
