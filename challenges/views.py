@@ -57,5 +57,6 @@ def monthly_challenge(request,month):
         #response_data = render_to_string("challenges/challenge.html")
         #return HttpResponse(response_data)
     except:
-        return HttpResponseNotFound("Not supported")      
+        response_data = render_to_string("404.html")
+        return HttpResponseNotFound(response_data)      
     
